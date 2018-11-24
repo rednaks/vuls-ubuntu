@@ -6,10 +6,10 @@ echo "Installing dependencies ..."
 sudo apt install git gcc make curl
 
 echo "Installing go-lang ..."
-#GO_PKG="go1.10.4.linux-amd64.tar.gz"
-#curl https://dl.google.com/go/$GO_PKG --output /tmp/$GO_PKG
-#sudo tar -C /usr/local/ -xzf /tmp/$GO_PKG
-#mkdir -p $HOME/go
+GO_PKG="go1.10.4.linux-amd64.tar.gz"
+curl https://dl.google.com/go/$GO_PKG --output /tmp/$GO_PKG
+sudo tar -C /usr/local/ -xzf /tmp/$GO_PKG
+mkdir -p $HOME/go
 
 echo -e "export GOROOT=/usr/local/go\n\
 export GOPATH=$HOME/go\n\
