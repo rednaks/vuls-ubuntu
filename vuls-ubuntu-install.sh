@@ -55,3 +55,4 @@ cd vuls
 make install
 cd $VULS_UBUNTU_HOME
 
+echo "finished install"
